@@ -1,0 +1,3 @@
+FROM rhscl/httpd-24-rhel7
+
+COPY .s2i/bin/ /usr/libexec/s2i
